@@ -1,0 +1,250 @@
+/*! @media Query section  */
+
+/* @media 1700px Query */
+
+@media (max-width:1700px) {
+    .hero_header{
+        width: 100%;
+        padding: 0 8%;
+    }
+    .menu li a{
+        font-size: 20px;
+    }
+
+}
+
+/* @media 1300px query  */
+
+@media screen and (max-width:1300px) {
+    .hero_header{
+        flex-direction: column;
+    }
+    .hero_contain{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .pere_contain span{
+        display: none;
+    }
+    .hero_sllider::after{
+        display: none;
+    }
+    .hero_sllider .mySwiper .swiper-wrapper  {
+        height: 80%;
+    }
+    .hero_sllider .mySwiper .swiper-wrapper .swiper-slide img{
+        height: 80% !important;
+    }
+    .video{
+        flex-direction: column;
+    }
+}
+/* @media 1150px query  */
+@media screen and (max-width:1150px) {
+    .work_line{
+        display: none;
+    }
+    .top_work_box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom_work_box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+    .work_box{
+        left: 0  !important;
+        width: 110%;
+        margin: 25px 0;
+    }
+
+    .pere_contain p{
+        width: 80%;
+    }
+}
+/* @media 1300px query  */
+
+@media screen and (max-width:1000px) {
+    .innovative_section{
+        flex-direction: column;
+    }
+    .innovative_img {
+        border-top-left-radius: 150px;
+        border-top-right-radius: 150px;
+        overflow: hidden;
+        width:80%;
+        height: 350px;
+    }
+    .innovative_contain{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+ 
+    .house_detail{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 80px 0;
+    }
+    .house_info{
+        margin-top: 50px;
+    }
+    .house_info_contain{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 30px 0;
+    }
+    .house_img {
+        width: 90%;
+    }
+    .info{
+        left: 0;
+    }
+    .award_line{
+        display: none;
+    }
+     .contain1{
+         flex-direction: column ;
+        justify-content: center ;
+        align-items: center ;
+    }
+    .contain2{
+        flex-direction: column-reverse ;
+       justify-content: center ;
+       align-items: center;
+   }
+    .award_contain .contain1 h1,span,.awars_pere{
+        margin: 0px;
+    }
+    .contain1 .awars_pere{
+        align-items: center !important;
+    }
+    .contain2 .awars_pere{
+        align-items: center !important;
+    }
+    .contain2{
+        left: 0;
+    }
+    .award_pere1 i{
+        display: none;
+    }
+}
+/* @media 900px query  */
+
+@media screen and (max-width:900px) {
+    .bars{
+        display: block;
+    }
+    nav{
+        padding: 3% 8%;
+    }
+    .bars i{
+        color: #fff;
+    }
+    ul li {
+        display: block;
+        margin: 20px 0px;
+        padding: 10px 0;
+        padding-left: 8%;
+    }
+    ul{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0%;
+        background-color: #ffffff2d;
+        backdrop-filter: blur(10px);
+        opacity: 0;
+        z-index: 99999;
+        transition:all .3s;
+    }
+    ul li a{
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    ul li a:hover {
+        color: #000;
+    }
+
+    .show {
+       opacity: 1;
+       width: 100%;
+       left: 0;
+
+    }
+    .work_box {
+        width: 90%;
+        margin: auto;
+        margin: 20px 0;
+    }
+    .footer_ele{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+/* @media 768px query  */
+
+@media screen and (max-width:768px) {
+    .info {
+        width: 100%;
+    }
+
+    .house_info_contain h1{
+        font-size: 50px;
+    }
+
+    .work_heading h1{
+        text-align: center;
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box iframe{
+        width: 30rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo img{
+        width: 20%;
+        height: 10%;
+    }
+    .hero_contain h1{
+       font-size: 40px;
+       font-weight: 100;
+       line-height: 50px;
+    }
+    
+    .innovative_contain h1 {
+        font-size: 40px;
+        font-weight: 100;
+        margin: 0 0;
+    }
+    .work_heading h1 {
+        font-weight: 100 !important;
+        font-size: 40px;
+    }
+
+    .box iframe{
+        width: 20rem;
+    }
+}
+
+@media screen and(max-width: 300px) {
+    .box iframe{
+        width: 10rem;
+    }
+    
+}
