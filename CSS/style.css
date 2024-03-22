@@ -421,6 +421,7 @@ footer img{
 }
 footer h4{
    font-weight: 500;
+    padding 0 1rem;
 }
 .partners{
    display: flex;
